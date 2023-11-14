@@ -1,0 +1,5 @@
+select * from hr.employees;
+
+select firs_name || ' ' || last_name 
+AS "Full name", phone_number || '; email: ' || email 
+AS "Contact information" from hr.employees;
