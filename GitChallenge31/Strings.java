@@ -1,4 +1,4 @@
-package gitChallenge31;
+package gitChallenge31.GitChallenge31;
 
 public class Strings {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Day7;
+package gitChallenge31.GitChallenge31;
 
 public class StringManipulation1 {
     public static void main(String[] args) {
