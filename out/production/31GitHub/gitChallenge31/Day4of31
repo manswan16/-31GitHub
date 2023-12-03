@@ -1,0 +1,33 @@
+public static void main(String[] args) {
+
+        ArrayList <Integer> years = new ArrayList<>(Arrays.asList(2020, 2018, 2015, 2013, 2012));
+        years.remove(0);
+        years.remove(3);
+
+        years.add(2022);
+        years.add(2023);
+        years.add(2014);
+        years.add(1965);
+        years.add(2004);
+        System.out.println("The number of years is: " + years.size());
+
+        for (int i = 0; i < years.size(); i++) {
+            System.out.print(" *" + years.get(i));
+        }
+
+
+
+
+        System.out.println("\n"+years.size());
+
+            int y = 0;
+            do {
+                System.out.println(years);
+                y++;
+            }while (y>years.size())
+
+
+
+
+    }
+
